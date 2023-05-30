@@ -1,16 +1,18 @@
 # NESTJS - CRUD - básico 
 
 Cloning e rode os testes
+
 Clone o repository.
-# Run preparational scripts:
 
-docker-compose up -d
+- Run preparational scripts:
 
-yarn bootstrap
+> docker-compose up -d
 
-yarn build
+> yarn bootstrap
 
-yarn test
+> yarn build
+
+> yarn test
 
 # Start o projeto:
 
