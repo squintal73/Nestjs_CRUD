@@ -1,12 +1,14 @@
 # NESTJS - CRUD - básico 
 
-Cloning e rode os testes
+> Clone o repositorio
 
-Clone o repository.
-
-- Rode os scripts:
+# Para rodas os Testes:
 
 > - docker-compose up -d
+
+> - yarn  db:prepare:typeorm:postgres
+
+> - yarn  db:prepare:typeorm:mysql
 
 > - yarn bootstrap
 
@@ -14,7 +16,11 @@ Clone o repository.
 
 > - yarn test
 
-# Start o projeto:
+# Para rodar o projeto:
+
+> - yarn install
+
+> - docker-compose up -d
 
 > - yarn  db:prepare:typeorm:postgres
 
@@ -22,4 +28,4 @@ Clone o repository.
 
 > - yarn start:typeorm
 
->> Use http://localhost:4001/docs
+# Acesse : http://localhost:4001/docs
