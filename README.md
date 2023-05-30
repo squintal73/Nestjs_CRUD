@@ -4,22 +4,22 @@ Cloning e rode os testes
 
 Clone o repository.
 
-- Run preparational scripts:
+- Rode os scripts:
 
-> docker-compose up -d
+> - docker-compose up -d
 
-> yarn bootstrap
+> - yarn bootstrap
 
-> yarn build
+> - yarn build
 
-> yarn test
+> - yarn test
 
 # Start o projeto:
 
-yarn  db:prepare:typeorm:postgres
+> - yarn  db:prepare:typeorm:postgres
 
-yarn  db:prepare:typeorm:mysql
+> - yarn  db:prepare:typeorm:mysql
 
-yarn start:typeorm
+> - yarn start:typeorm
 
-Use http://localhost:4001/docs
+>> Use http://localhost:4001/docs
