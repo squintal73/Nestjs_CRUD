@@ -1,11 +1,8 @@
 # dependencies
 /**/node_modules
 yarn-error.log
-npm-debug.log
 
 # IDE
-/.idea
-/.awcache
 /.vscode
 
 # misc
